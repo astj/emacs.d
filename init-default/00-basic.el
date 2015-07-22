@@ -36,6 +36,9 @@
 ; highlight )
 (show-paren-mode t)
 
+; use y-n
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 ; custom-set-variables
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
