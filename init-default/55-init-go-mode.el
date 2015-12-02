@@ -1,6 +1,7 @@
 (el-get-bundle go-mode)
 
 (autoload 'go-mode "go-mode" nil t)
+(add-hook 'before-save-hook 'gofmt-before-save)
 
 (el-get-bundle! go-autocomplete)
 
