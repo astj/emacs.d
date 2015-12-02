@@ -5,3 +5,6 @@
 (el-get-bundle go-autocomplete)
 
 (require 'go-autocomplete)
+
+(el-get-bundle go-flymake)
+(require 'go-flymake)
