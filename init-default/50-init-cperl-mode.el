@@ -1,5 +1,7 @@
 ;; .t -> perl
 (add-to-list 'auto-mode-alist '("\\.\\(t\\)$" . perl-mode))
+;; .psgi => perl
+(add-to-list 'auto-mode-alist '("\\.\\(psgi\\)$" . perl-mode))
 
 ;; cperl-mode
 (defalias 'perl-mode 'cperl-mode)
