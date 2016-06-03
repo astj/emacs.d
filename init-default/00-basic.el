@@ -41,3 +41,5 @@
 
 ;;; Prevent Extraneous Tabs
 (setq-default indent-tabs-mode nil)
+
+(setq make-backup-files nil) ; stop creating backup~ files
