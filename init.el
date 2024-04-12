@@ -18,7 +18,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(go-mode exec-path-from-shell init-loader magit with-editor typescript-mode))
+   '(auto-complete go-mode exec-path-from-shell init-loader magit with-editor typescript-mode))
  '(ruby-insert-encoding-magic-comment nil)
  '(typescript-indent-level 2))
 (custom-set-faces
